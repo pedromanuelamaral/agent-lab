@@ -1,0 +1,22 @@
+# Operating-system and editor residue
+.DS_Store
+.idea/
+.vscode/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Private learner exports and local station material
+private-local-station-*.html
+*local-station*.json
+local-notes/
+
+# Logs and temporary work
+*.log
+work/
+tmp/
